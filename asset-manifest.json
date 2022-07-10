@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/android-phone/static/css/main.f01f682f.css",
+    "main.js": "/android-phone/static/js/main.341a6dfa.js",
+    "static/js/787.59fff24d.chunk.js": "/android-phone/static/js/787.59fff24d.chunk.js",
+    "static/media/background.webp": "/android-phone/static/media/background.44b62f2dbf291c25e0c5.webp",
+    "index.html": "/android-phone/index.html",
+    "main.f01f682f.css.map": "/android-phone/static/css/main.f01f682f.css.map",
+    "main.341a6dfa.js.map": "/android-phone/static/js/main.341a6dfa.js.map",
+    "787.59fff24d.chunk.js.map": "/android-phone/static/js/787.59fff24d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f01f682f.css",
+    "static/js/main.341a6dfa.js"
+  ]
+}
