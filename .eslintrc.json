@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-param-reassign": "warn",
+    "no-unused-vars": "warn",
+    "react/function-component-definition":[
+      "error",{
+        "namedComponents":"arrow-function",
+        "unnamedComponents":"arrow-function"
+      }
+    ],
+    "dot-notation":[
+      "off",
+      {
+        "allowPattern":"^(([A-Z][a-z]*)+)(-([A-Z][a-z]*)+)?(_[a-z]+([A-Z][a-z]+)*){0,2}$"
+      }
+    ]
+  }
+}

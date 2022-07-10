@@ -1,0 +1,17 @@
+.PhoneScreen{
+  background: url("../../../public/background.webp") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  border-radius: 2rem;
+  background-size: cover;
+  height: 100vh;
+  max-width: 50vh;
+  width: 100vw;
+
+  &-Content{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}

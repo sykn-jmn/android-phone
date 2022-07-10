@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "selector-class-pattern": "^(([A-Z][a-z]*)+)(-([A-Z][a-z]*)+)?(_[a-z]+([A-Z][a-z]+)*){0,2}$"
+  }
+}

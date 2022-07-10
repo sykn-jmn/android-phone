@@ -1,0 +1,27 @@
+.SimSignalIcon{
+  display: flex;
+  gap: 3px;
+  align-items: flex-end;
+}
+
+.SignalBar{
+  width: 3px;
+  background-color: rgba(173, 173, 173, 0.3);
+  &_level{
+    &_0{
+      height: 0.2rem;
+    }
+    &_1{
+      height: 0.4rem;
+    }
+    &_2{
+      height: 0.6rem;
+    }
+    &_3{
+      height: 0.8rem;
+    }
+  }
+  &_active{
+    background-color: white;
+  }
+}
